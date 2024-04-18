@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+<link rel="stylesheet" href="static/css/style.css">
+{% block content %}
+<title>Меню</title>
+<div class="items">
+{% for item, price in menu %}
+    <div>
+        <img class="image" src="static/img/coffee.jpg" width="200" height="200">
+        <button type="button" class="item" id="btn">{{ item }}</button>
+        <p class="price">{{price}}</p>
+    </div>
+{% endfor %}
+</div>
+{% endblock %}
