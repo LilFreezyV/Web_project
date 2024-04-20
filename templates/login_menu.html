@@ -6,8 +6,9 @@
 {% for item, price in menu %}
     <div>
         <img class="image" src="static/img/coffee.jpg" width="200" height="200">
-        <button type="button" class="item" id="btn">{{ item }}</button>
+        <button type="button" class="item" id="btn" onclick="get_content()">{{ item }}</button>
         <p class="price">{{price}}</p>
     </div>
 {% endfor %}
+</div>
 {% endblock %}

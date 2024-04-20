@@ -24,8 +24,13 @@ def index():
 
 
 @app.route("/menu")
-def menu():
+def basket():
     return render_template("menu.html", menu=MENU)
+
+
+@app.route("/basket")
+def menu():
+    return render_template("basket.html", username=USERNAME)
 
 
 @app.route('/register', methods=['GET', 'POST'])
