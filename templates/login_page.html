@@ -8,6 +8,7 @@
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
           crossorigin="anonymous">
+    <script src="static/js/script.js"></script>
     <title>ROMASHKA COFFEE</title>
 </head>
 <body>
@@ -21,7 +22,8 @@
 </header>
 <header>
     <label class="profile_info">Ваш профиль<br>{{username}}</label><br>
-    <button class="profile_info" type="button">Выйти</button>
+    <button class="profile_info" type="button" onclick="quit()" id="quit_button">Выйти</button>
+    <p id="demo"></p>
 </header>
 <main role="main" class="container">
     {% block content %}{% endblock %}
