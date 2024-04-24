@@ -96,10 +96,20 @@
     left: 735px;
     top: 315px;
 }
+.photo_main_4{
+    position: absolute;
+    left: 1003px;
+    top: 75px;
+}
 .photo_help_1{
     position: absolute;
     left: 470px;
     top: 60px;
+}
+.photo_help_2{
+    position: absolute;
+    left: 1003px;
+    top: 431px;
 }
 .str1{
     position: absolute;
