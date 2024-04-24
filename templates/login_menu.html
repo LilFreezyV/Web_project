@@ -3,9 +3,9 @@
 {% block content %}
 <title>Меню</title>
 <div class="items">
-{% for item, price in menu %}
+{% for item, price, pict in menu %}
     <div>
-        <img class="image" src="static/img/coffee.jpg" width="200" height="200">
+        <img class="image" src={{ pict }} width="200" height="200">
         <button type="button" class="item" id="btn" onclick="get_content()">{{ item }}</button>
         <p class="price">{{price}}</p>
     </div>

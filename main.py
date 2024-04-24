@@ -14,13 +14,16 @@ USERNAME = ''
 
 IS_LOGIN = False
 
-MENU = [('cappuccino', 200), ('latte', 250), ('raf', 300), ('cocoa', 150), ('milk', 90), ('matcha', 135), ('tea', 80)]
+MENU = [('Капучино', 230, "static/img/photo1.jpg"), ('Латте', 230, "static/img/photo2.jpg"),
+        ('Раф', 270, "static/img/photo3.jpg"), ('Какао', 210, "static/img/photo4.jpg"),
+        ('Американо', 120, "static/img/photo5.jpg"), ('Матча', 220, "static/img/photo6.jpg"),
+        ('Глинтвейн', 240, "static/img/photo7.jpg")]
 
 
 @app.route('/')
 def index():
     print(f'-------------------------{IS_LOGIN}-------------------------')
-    return render_template("base.html")
+    return render_template("main.html")
 
 
 @app.route("/menu")
@@ -59,7 +62,7 @@ def register():
             session.commit()
             USERNAME = username
             IS_LOGIN = True
-            return redirect('/login_menu')
+            return render_template('login_main.html')
         IS_LOGIN = False
         return redirect('/login_error')
     return render_template('register.html', title='Авторизация', form=form)
@@ -82,7 +85,7 @@ def login():
         USERNAME = username
         IS_LOGIN = True
         if check_user(username, password):
-            return redirect('/login_menu')
+            return render_template('login_main.html')
         IS_LOGIN = False
         return 'Проверьте правильность введенных данных'
     return render_template('login.html', title='Авторизация', form=form)
