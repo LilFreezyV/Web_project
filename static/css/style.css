@@ -101,6 +101,16 @@
     left: 1003px;
     top: 75px;
 }
+.photo_main_6{
+    position: absolute;
+    right: 1010px;
+    top: 90px;
+}
+.photo_main_7{
+    position: absolute;
+    right: 565px;
+    top: 87px;
+}
 .photo_help_1{
     position: absolute;
     left: 470px;
@@ -110,6 +120,11 @@
     position: absolute;
     left: 1003px;
     top: 431px;
+}
+.photo_help_3{
+    position: absolute;
+    right: 1010px;
+    top: 510px;
 }
 .place_img_1{
     position: absolute;
@@ -188,4 +203,28 @@
     top: 620px;
     font-size: 20px;
     color: white;
+}
+.sale_1_str_1{
+    position: absolute;
+    left: 220px;
+    top: 585px;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.sale_1_str_2{
+    position: absolute;
+    left: 105px;
+    top: 625px;
+    font-size: 20px;
+    color: white;
+}
+.sale_1_str_3{
+    position: absolute;
+    left: 105px;
+    top: 650px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+
 }
