@@ -111,6 +111,21 @@
     left: 1003px;
     top: 431px;
 }
+.place_img_1{
+    position: absolute;
+    left: 1000px;
+    top: 500px;
+}
+.place_img_2{
+    position: absolute;
+    left: 1000px;
+    top: 550px;
+}
+.place_img_3{
+    position: absolute;
+    left: 1000px;
+    top: 600px;
+}
 .str1{
     position: absolute;
     left: 480px;
