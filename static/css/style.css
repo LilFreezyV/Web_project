@@ -168,3 +168,24 @@
     font-size: 20px;
     color: white;
 }
+.place_str_1{
+    position: absolute;
+    left: 1050px;
+    top: 520px;
+    font-size: 20px;
+    color: white;
+}
+.place_str_2{
+    position: absolute;
+    left: 1050px;
+    top: 570px;
+    font-size: 20px;
+    color: white;
+}
+.place_str_3{
+    position: absolute;
+    left: 1050px;
+    top: 620px;
+    font-size: 20px;
+    color: white;
+}
