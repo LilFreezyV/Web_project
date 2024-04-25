@@ -111,6 +111,16 @@
     right: 565px;
     top: 87px;
 }
+.photo_main_8{
+    position: absolute;
+    right: 317px;
+    top: 115px;
+}
+.photo_main_9{
+    position: absolute;
+    right: 60px;
+    top: 440px;
+}
 .photo_help_1{
     position: absolute;
     left: 470px;
@@ -125,6 +135,16 @@
     position: absolute;
     right: 1010px;
     top: 510px;
+}
+.photo_help_4{
+    position: absolute;
+    right: 60px;
+    top: 113px;
+}
+.photo_help_5{
+    position: absolute;
+    right: 325px;
+    top: 443px;
 }
 .place_img_1{
     position: absolute;
@@ -226,5 +246,4 @@
     font-size: 20px;
     color: white;
     font-weight: 600;
-
 }
